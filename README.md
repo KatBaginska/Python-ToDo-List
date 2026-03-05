@@ -1,6 +1,9 @@
 WELCOME TO PYTHON TO-DO APP!
 
-![alt text](image.png)
+![alt text](image-1.png)
+
+A command-line To-Do list application written in Python that helps to stay organised.
+The application stores tasks locally and allows you to organise, update and track progress.
 
 ## Key Features
 
@@ -19,22 +22,28 @@ If you are running repository from your device:
 
 1. Download and unzip folder. 
 
-2. Open folder in Visual Studio Code and open folder in it.
+2. Open folder in Visual Studio Code (or another editor).
 
-3. To run project, in terminal input:
+3. Open terminal in project folder.
 
-python main.py
+3. Run the program:
+
+        python main.py
 
 If you are running with use of Git:
 
 1. Clone the repository:
 
-git clone https://github.com/KatBaginska/Python-ToDo-List.git
+    git clone https://github.com/KatBaginska/Python-ToDo-List.git
 
 2. Navigate to the folder:
 
-cd Python-ToDo-List
+    cd Python-ToDo-List
 
 3. Run the program:
 
-python main.py
+    python main.py
+
+## Requirements
+    - Python 3.x
+    - No external libraries are required.

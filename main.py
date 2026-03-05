@@ -10,6 +10,7 @@ def menu():
         print('4. Remove Task')
         print('5. Show only undone tasks')
         print('6. Mark task as done')
+        print('7. Exit')
         print('----------------------')
 
         option_number = input('Choose number for one of the options:')
@@ -28,6 +29,9 @@ def menu():
             input("\nPress Enter to return to menu...")
         elif option_number == '6':
             mark_done()
+        elif option_number == '7':
+            print('Goodbye!')
+            break
         else:
             print ('Invalid Chice')
 menu()
