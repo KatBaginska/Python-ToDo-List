@@ -129,7 +129,7 @@ def edit_task():
                 break
     elif user_input == 'status':
         while True:
-            new_status = input('Is to-do completed? y/n')
+            new_status = input('Is to-do completed? y/n ')
             new_status = new_status.lower()
 
             if new_status == 'y':
@@ -142,7 +142,7 @@ def edit_task():
                 print('Incorrect Status')
     elif user_input == 'deadline':
         while True:
-            new_deadline = input('What is new deadline? DD-MM-YYYY?')
+            new_deadline = input('What is new deadline? Format: DD-MM-YYYY ')
 
             try:#AI Suggestion
                 deadline_date = datetime.strptime(new_deadline, "%d-%m-%Y")
@@ -163,3 +163,43 @@ def edit_task():
     save_task(tasks)
     input("\nChanges has been succesful. Press Enter to return to menu...")
 
+def show_undone():
+    tasks = load_task()
+
+    undone_tasks = [task for task in tasks if task["status"] == False]
+
+    if not undone_tasks:
+        print('Yod no pending tasks.')
+    else:
+        for index, task in enumerate(undone_tasks, start=1):
+            print(index+1, '[ ]', task["title"], '- Due:', task["deadline"])
+
+def mark_done():
+    tasks = load_task()
+
+    if not tasks:
+        print('No tasks on To-Do list')
+
+    show_task()
+
+    while True:
+        user_input = input("Enter number of the task you want to mar as done: ")
+
+        if not user_input.isdigit():
+            print("Please input valid number.")
+            continue
+
+        task_number = int(user_input)
+
+        if task_number < 1 or task_number > len(tasks):
+            print("There is no task with this number on the list, try again.")
+            continue
+        
+        break
+
+    tasks[task_number-1]["status"] = True #AI Help
+
+    save_task(tasks)
+
+    print("Task marked as complete!")
+    input("\nPress Enter to return to menu...")

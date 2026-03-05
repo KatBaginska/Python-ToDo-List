@@ -1,4 +1,4 @@
-from CRUD import add_task, show_task, edit_task, delete_task
+from CRUD import add_task, show_task, edit_task, delete_task, show_undone, mark_done
 
 def menu():
     while True:
@@ -8,6 +8,8 @@ def menu():
         print('2. Add new task')
         print('3. Edit Existing Task')
         print('4. Remove Task')
+        print('5. Show only undone tasks')
+        print('6. Mark task as done')
         print('----------------------')
 
         option_number = input('Choose number for one of the options:')
@@ -21,6 +23,11 @@ def menu():
             edit_task()
         elif option_number == '4':
             delete_task()
+        elif option_number == '5':
+            show_undone()
+            input("\nPress Enter to return to menu...")
+        elif option_number == '6':
+            mark_done()
         else:
             print ('Invalid Chice')
 menu()
