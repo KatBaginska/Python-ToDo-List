@@ -40,6 +40,8 @@ def add_task():
     tasks.sort(key=lambda task:datetime.strptime(task["deadline"], "%d-%m-%Y")) #AI Help
     save_task(tasks)
 
+    print('New task added succesfully!')
+
     input("\nPress Enter to return to menu...")
 def show_task():
     tasks = load_task()
@@ -66,7 +68,7 @@ def delete_task():
        del_input = input('Choose a number associated to the task you want to delete: ')
 
        if not del_input.isdigit():
-           print('No To-Do with this number. Please enter valid To-Do number')
+           print('Please enter valid To-Do number')
            continue
        
        del_number = int(del_input)
@@ -119,7 +121,7 @@ def edit_task():
            continue
     if user_input == 'title':
         while True:
-            new_title = input('Please add new title: ').strip() #removes spaces
+            new_title = input('Please add new title: ').strip() #removes spaces - AI Suggestion
 
             if new_title == "":
                 print("Title cannot be empty, input title: ")
@@ -159,7 +161,7 @@ def edit_task():
             except ValueError:
                 print("Invalid date format. Please use DD-MM-YYYY.")
     
-    tasks.sort(key=lambda task:datetime.strptime(task["deadline"], "%d-%m-%Y"))
+    tasks.sort(key=lambda task:datetime.strptime(task["deadline"], "%d-%m-%Y")) #AI Suggestion
     save_task(tasks)
     input("\nChanges has been succesful. Press Enter to return to menu...")
 
@@ -183,7 +185,7 @@ def mark_done():
     show_task()
 
     while True:
-        user_input = input("Enter number of the task you want to mar as done: ")
+        user_input = input("Enter number of the task you want to mark as done: ")
 
         if not user_input.isdigit():
             print("Please input valid number.")
@@ -194,7 +196,7 @@ def mark_done():
         if task_number < 1 or task_number > len(tasks):
             print("There is no task with this number on the list, try again.")
             continue
-        
+
         break
 
     tasks[task_number-1]["status"] = True #AI Help

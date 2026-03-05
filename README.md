@@ -1,6 +1,6 @@
 WELCOME TO PYTHON TO-DO APP!
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 A command-line To-Do list application written in Python that helps to stay organised.
 The application stores tasks locally and allows you to organise, update and track progress.
