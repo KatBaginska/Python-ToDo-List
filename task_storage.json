@@ -1,37 +1,22 @@
 [
     {
-        "title": "Kat Task",
+        "title": "Doctrs Appointment",
         "status": true,
         "deadline": "12-03-2025"
     },
     {
-        "title": "New Title",
-        "status": true,
+        "title": "University Assesment",
+        "status": false,
         "deadline": "03-07-2025"
     },
     {
-        "title": "New Test",
+        "title": "Exam Math",
         "status": true,
         "deadline": "04-03-2026"
     },
     {
-        "title": "New Task",
+        "title": "House Viewing",
         "status": false,
         "deadline": "23-03-2026"
-    },
-    {
-        "title": "Task Test",
-        "status": false,
-        "deadline": "23-03-2026"
-    },
-    {
-        "title": "Task Extra Test",
-        "status": true,
-        "deadline": "01-06-2026"
-    },
-    {
-        "title": "Extra Title Title",
-        "status": true,
-        "deadline": "11-06-2026"
     }
 ]

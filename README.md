@@ -34,15 +34,15 @@ If you are running with use of Git:
 
 1. Clone the repository:
 
-    git clone https://github.com/KatBaginska/Python-ToDo-List.git
+        git clone https://github.com/KatBaginska/Python-ToDo-List.git
 
 2. Navigate to the folder:
 
-    cd Python-ToDo-List
+        cd Python-ToDo-List
 
 3. Run the program:
 
-    python main.py
+        python main.py
 
 ## Requirements
     - Python 3.x
