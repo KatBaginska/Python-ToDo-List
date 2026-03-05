@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Kat Task",
+        "status": true,
+        "deadline": "12-03-2025"
+    },
+    {
+        "title": "New Title",
+        "status": true,
+        "deadline": "03-07-2025"
+    },
+    {
+        "title": "New Test",
+        "status": false,
+        "deadline": "04-03-2026"
+    },
+    {
+        "title": "New Task",
+        "status": false,
+        "deadline": "23-03-2026"
+    },
+    {
+        "title": "Task Test",
+        "status": false,
+        "deadline": "23-03-2026"
+    },
+    {
+        "title": "Test",
+        "status": false,
+        "deadline": "23-06-2026"
+    },
+    {
+        "title": "New Task Task",
+        "status": true,
+        "deadline": "30-10-2027"
+    }
+]
