@@ -16,11 +16,11 @@
     },
     {
         "title": "1-2-1 Metting",
-        "status": false,
+        "status": true,
         "deadline": "11-06-2026"
     },
     {
-        "title": "Task",
+        "title": "School Meeting",
         "status": true,
         "deadline": "23-06-2026"
     }
