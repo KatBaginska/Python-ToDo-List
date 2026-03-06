@@ -1,0 +1,72 @@
+commit e5d413c411ef278b3563d8ad3b4d99e8bd86a71e
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Fri Mar 6 08:15:57 2026 +0000
+
+    Last Updates to code and Readme
+
+commit 32fe85a473b56977e5443fc84702103918894f80
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 23:02:11 2026 +0000
+
+    ReadMe Update and Typos fix
+
+commit 8fb4dea9287edcb3b945925ce181ec7cd08b3b68
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 21:55:07 2026 +0000
+
+    Update
+
+commit 9c467bcfe4f04a056ffe05afe23bbdebca0957aa
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 21:51:08 2026 +0000
+
+    Read me
+
+commit 7fdeb0ffbfab0e0fb99aa192f0af508597cfb1dc
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 21:32:19 2026 +0000
+
+    Readme update
+
+commit 6fc47d4f3f8205bc46796ad938c95023883af522
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 21:24:46 2026 +0000
+
+    New Functions: mark_done and show_undone
+
+commit bebd1f78627dd0d04bf84ebed9ed4677e31de923
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 10:02:41 2026 +0000
+
+    New additions
+
+commit 8d9f69b1744115e87b038278664b79403c27d555
+Merge: a327fe7 e0286bb
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 09:52:08 2026 +0000
+
+    message
+
+commit e0286bb03486ca8d8890a63525c1ca968e071ed4
+Author: Katarzyna Baginska <137444157+KatBaginska@users.noreply.github.com>
+Date:   Thu Mar 5 07:53:27 2026 +0000
+
+    Delete README.md
+
+commit a327fe79c483b80854e85c095bffeab9a21fd347
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 07:52:15 2026 +0000
+
+    Commit
+
+commit ff4e60eb63a8b3ae20193d85aa243204ea63d5ef
+Author: KatBaginska <katarzyna.baginska11@icloud.com>
+Date:   Thu Mar 5 07:40:21 2026 +0000
+
+    First Version of App
+
+commit 0bf8e24e8322c1a946e3f71ebadd2246e4f9f444
+Author: Katarzyna Baginska <137444157+KatBaginska@users.noreply.github.com>
+Date:   Thu Mar 5 07:37:26 2026 +0000
+
+    Initial commit
